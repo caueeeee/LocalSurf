@@ -761,7 +761,7 @@ p {
 }
 
 .promocao {
-    margin-top: 300px;
+    margin-top: 200px;
     position: relative;
     padding-bottom: 350px;
 }
@@ -1055,4 +1055,9 @@ footer p {
     75% {
         transform: rotate(-10deg);
     }
+}
+
+a{
+    text-decoration: none;
+    color: white;
 }
