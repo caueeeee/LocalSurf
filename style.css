@@ -317,6 +317,12 @@ nav li:hover {
     transition: 0.3s ease-in-out;
 }
 
+nav li:active{
+    color: var(--vermelho);
+    text-shadow: hsl(0 80% 40%) 0px 0px 50px;
+    transition: 0.3s ease-in-out;
+}
+
 nav li::after {
     content: '';
     position: absolute;
