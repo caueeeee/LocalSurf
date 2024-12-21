@@ -162,7 +162,7 @@ html {
     }
 
     .promocao{
-        margin-bottom: 200px;
+        margin-bottom: 200px !important;
     }
 
     .promo {
