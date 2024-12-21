@@ -122,8 +122,23 @@ html {
     .prod7,
     .prod8,
     .prod9 {
-        width: 90%;
+        width: 50%;
         height: auto;
+        transform: scale(.8);
+    }
+
+    .prod1:hover,
+    .prod2:hover,
+    .prod3:hover,
+    .prod4:hover,
+    .prod5:hover,
+    .prod6:hover,
+    .prod7:hover,
+    .prod8:hover,
+    .prod9:hover {
+        transform: scale(.85) !important;
+        transition: .5s ease-in-out !important;
+
     }
 
     .prod1 img,
@@ -135,7 +150,7 @@ html {
     .prod7 img,
     .prod8 img,
     .prod9 img {
-        width: 100%;
+        width: 80%;
     }
 
     footer {
@@ -317,10 +332,9 @@ nav li:hover {
     transition: 0.3s ease-in-out;
 }
 
-nav li:active{
+nav li:active {
     color: var(--vermelho);
     text-shadow: hsl(0 80% 40%) 0px 0px 50px;
-    transition: 0.3s ease-in-out;
 }
 
 nav li::after {
