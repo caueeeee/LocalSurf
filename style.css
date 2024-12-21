@@ -161,6 +161,10 @@ html {
         opacity: 0;
     }
 
+    .promocao{
+        padding-bottom: 200px;
+    }
+
     .promo {
         transform: scale(.5);
     }
